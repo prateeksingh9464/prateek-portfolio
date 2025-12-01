@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prateek Singh Kanghuta | Portfolio</title>
+    <meta name="description" content="Portfolio of Prateek Singh Kanghuta - CSE Student & AI Enthusiast specializing in Python, C++, and Computer Vision.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Prateek.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact" class="btn-primary">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content fade-in">
+                <p class="hero-subtitle">Hello, I am</p>
+                <h1 class="hero-title">Prateek Singh<br>Kanghuta</h1>
+                <h2 class="hero-role">CS Student & <span class="accent-text">AI Enthusiast</span></h2>
+                <p class="hero-desc">
+                    Leveraging Python and C++ to build intelligent systems. Currently expanding into full-stack web architecture to bring AI models to the browser.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="https://www.linkedin.com/in/prateeksinghkanghuta/" target="_blank" class="btn-outline">
+                        <i class="fab fa-linkedin"></i> Let's Connect
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding">
+            <div class="container">
+                <h2 class="section-heading">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text fade-in-scroll">
+                        <p>
+                            I am currently pursuing my <strong>BE in CSE (AI & ML)</strong> at <strong>Chandigarh University</strong> (2024–2028). My journey into tech wasn't just about writing code—it started with a deep curiosity for how systems operate under the hood.
+                        </p>
+                        <p>
+                            Much like my interest in high-performance automobiles, I love understanding the "engine" beneath the software. Whether it's tuning a bike engine or optimizing a C++ algorithm, I strive for performance, precision, and efficiency.
+                        </p>
+                        <p>
+                            I value raw honesty, discipline, and building practical solutions that solve real-world problems.
+                        </p>
+                    </div>
+                    
+                    <div class="about-img-wrapper fade-in-scroll">
+                        <img src="me.jpg" alt="Prateek Singh Kanghuta" style="border-radius: 20px; width: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding bg-alt">
+            <div class="container">
+                <h2 class="section-heading">Technical Arsenal</h2>
+                <div class="skills-grid">
+                    
+                    <div class="skill-card fade-in-scroll">
+                        <i class="fas fa-laptop-code accent-icon"></i>
+                        <h3>Core & Logic</h3>
+                        <ul class="skill-list">
+                            <li>C++ (Data Structures)</li>
+                            <li>Python (Advanced)</li>
+                            <li>OOP Principles</li>
+                            <li>Algorithm Optimization</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card fade-in-scroll">
+                        <i class="fas fa-brain accent-icon"></i>
+                        <h3>AI & Machine Learning</h3>
+                        <ul class="skill-list">
+                            <li>OpenCV (Computer Vision)</li>
+                            <li>MediaPipe</li>
+                            <li>NumPy & Pandas</li>
+                            <li>Data Analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card fade-in-scroll">
+                        <i class="fas fa-terminal accent-icon"></i>
+                        <h3>Tools & Development</h3>
+                        <ul class="skill-list">
+                            <li>Git & GitHub</li>
+                            <li>Linux Environment</li>
+                            <li>HTML5 / CSS3</li>
+                            <li>VS Code / Jupyter</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <h2 class="section-heading">Featured Projects</h2>
+                <div class="projects-grid">
+                    
+                    <article class="project-card fade-in-scroll">
+                        <div class="project-img">
+                            <div class="img-placeholder" style="background: linear-gradient(135deg, #2563eb, #1e3a8a);">
+                                <i class="fas fa-hand-paper" style="color: white; font-size: 3rem;"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI Gesture Recognition</h3>
+                            <p>
+                                A computer vision application that performs real-time hand tracking. It accurately counts fingers and identifies gestures using a camera feed.
+                            </p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>OpenCV</span>
+                                <span>MediaPipe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/prateeksingh9464" target="_blank">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card fade-in-scroll">
+                        <div class="project-img">
+                            <div class="img-placeholder" style="background: linear-gradient(135deg, #10b981, #064e3b);">
+                                <i class="fas fa-certificate" style="color: white; font-size: 3rem;"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>IBM AI SkillsBuild</h3>
+                            <p>
+                                An intensive technical workshop focusing on the foundations of Artificial Intelligence, Machine Learning workflows, and cloud deployment strategies.
+                            </p>
+                            <div class="tech-stack">
+                                <span>AI Fundamentals</span>
+                                <span>IBM Cloud</span>
+                                <span>Case Study</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/in/prateeksinghkanghuta/" target="_blank">
+                                    <i class="fab fa-linkedin"></i> View Certification
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section-padding bg-alt">
+            <div class="container">
+                <h2 class="section-heading">Education & Timeline</h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item fade-in-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - 2028 (Expected)</div>
+                        <div class="timeline-content">
+                            <h3>B.E. Computer Science (AI & ML)</h3>
+                            <h4>Chandigarh University</h4>
+                            <p>Currently in Semester 3. Focusing on Core CS fundamentals, Data Structures, Algorithms, and Object-Oriented Programming.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">September 2025</div>
+                        <div class="timeline-content">
+                            <h3>AI & ML Workshop</h3>
+                            <h4>IBM SkillsBuild</h4>
+                            <p>Completed a 3-day intensive boot camp on Generative AI and Machine Learning applications in the modern industry.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+            <div class="container contact-wrapper">
+                <h2 class="section-heading">Get In Touch</h2>
+                <p class="contact-sub">
+                    Have a question about my code, a project idea, or just want to discuss bikes and tech? Drop me a message.
+                </p>
+                
+                <form class="contact-form" action="https://formsubmit.co/prateeksingh9464@gmail.com" method="POST">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Send Message</button>
+                </form>
+
+                <div class="direct-contact">
+                    <p>Or email me directly at: 
+                        <a href="#" onclick="copyEmail(event)" style="cursor: pointer; text-decoration: underline;">
+                            prateeksingh9464@gmail.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="https://github.com/prateeksingh9464" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/prateeksinghkanghuta/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" onclick="copyEmail(event)" aria-label="Copy Email" title="Copy Email Address">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Prateek Singh Kanghuta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function copyEmail(e) {
+            e.preventDefault();
+            const email = "prateeksingh9464@gmail.com";
+            navigator.clipboard.writeText(email).then(() => {
+                alert("Email address copied to clipboard: " + email);
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
